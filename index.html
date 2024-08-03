@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--- primary meta tag-->
+        <title>Jadoo Travel Website</title>
+        <meta name="title" content="" />
+        <meta name="description" content="" />
+
+        <!--- favicon-->
+        <link rel="shortcut icon" href="assets/images/logo.png" type="image" />
+        <!--- Bootstrap css link-->
+        <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+        <!--- custom css link-->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+         <!--- animate css link-->
+         <link rel="stylesheet" href="./assets/css/animate.css" />
+
+
+ <!--- font-awesome link-->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+    </head>
+
+    <body id="top">
+        <!--- #HEADER-->
+
+        <header class="header" data-header>
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.png" width="110px" alt="jadoo logo" />
+                </a>
+
+                <nav class="navbar" data-navbar>
+                    <div class="wrapper">
+                        <a href="#" class="logo">
+                            <img src="./assets/images/logo.png" width="110px" alt="jadoo logo" />
+                        </a>
+
+                        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a href="#home" class="navbar-link" data-nav-link>Destination</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#about" class="navbar-link" data-nav-link>Hotels</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#courses" class="navbar-link" data-nav-link>Flights</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#blog" class="navbar-link" data-nav-link>Bookings</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link" data-nav-link>Login</a>
+                        </li>
+
+                        <li class="navbar-item">
+                            <a href="#" class="navbar-link btn has-before" data-nav-link>Sign Up</a>
+                        </li>
+
+                        <li class="nav-item dropdown navbar-item">
+                            <a class="nav-link dropdown-toggle navbar-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                EN
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">EN</a></li>
+                                <li><a class="dropdown-item" href="#">SP</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+                        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="overlay" data-nav-toggler data-overlay></div>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <!--- #HERO -->
+
+                <section class="section hero has-bg-image" id="home" aria-label="home">
+                    <img style="width: 700px; z-index: 1; position: absolute; top: 0; right: 0;" src="assets/images/bg.png" alt="" />
+                    <img style="width: auto; z-index: 1; position: absolute; top: 0; left: 0;" src="assets/images/header_gr.png" alt="" />
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="hero-content">
+                                    <h6 class="wow fadeInRight animated">Best Destinations around the world</h6>
+                                    <h1 style="font-family: Volkhov;" class="wow fadeInRight animated ">
+                                        Travel, enjoy and live a new and full life
+
+                                        <img src="assets/images/shape.svg" alt="" />
+                                    </h1>
+                                    <p class="wow fadeInRight animated">
+                                        Built Wicket longer admire do barton vanity itself do in it.<br />
+                                        Preferred to sportsmen it engrossed listening. Park gate<br />
+                                        sell they west hard for the.
+                                    </p>
+
+                                    <div class="d-flex btn-group_">
+                                        <div>
+                                            <button class="button_yellow">Find Out More</button>
+                                        </div>
+
+                                        <div style="gap: 17px;" class="d-flex align-items-center">
+                                            <button class="play-btn" aria-label="play video">
+                                                <ion-icon name="play" aria-hidden="true"></ion-icon>
+                                            </button>
+                                            <span class="videopspan">Play Demo</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <img style="width: 100%; z-index: 2; position: relative;" src="assets/images/travel.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--- #CATEGORY-->
+
+                <section class="section category" aria-label="category">
+                    <div class="container position-relative">
+                        <img class="position-absolute top-0 end-0 starimg" src="assets/images/star.svg" alt="" />
+                        <p class="section-subtitle wow fadeInUp animated">CATEGORY</p>
+
+                        <h2 class="h2 section-title wow fadeInUp animated">We Offer Best Services</h2>
+
+                        <div>
+                            <div class="row service_container">
+                                <div class="col-lg-3">
+                                    <div class="card_widget service-card">
+                                        <img class="wow fadeInUp animated" src="assets/images/1.png" alt="" />
+                                        <h5 class="wow fadeInUp animated">Calculated Weather</h5>
+                                        <p class="wow fadeInUp animated WOW">
+                                            Built Wicket longer admire do barton vanity itself do in it.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3">
+                                    <div class="card_widget service-card">
+                                        <img class="wow fadeInUp animated" src="assets/images/2.png" alt="" />
+                                        <h5 class="wow fadeInUp animated">Best Flights</h5>
+
+                                        <p class="wow fadeInUp animated">
+                                            Engrossed listening. Park gate sell they west hard for the.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="card_widget service-card">
+                                        <img class="wow fadeInUp animated" src="assets/images/3.png" alt="" />
+                                        <h5 class="wow fadeInUp animated">Local Events</h5>
+                                        <p class="wow fadeInUp animated">
+                                            Barton vanity itself do in it. Preferd to men it engrossed listening.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="card_widget service-card">
+                                        <img class="wow fadeInUp animated" src="assets/images/4.png" alt="" />
+                                        <h5 class="wow fadeInUp animated">Customization</h5>
+                                        <p class="wow fadeInUp animated">
+                                            We deliver outsourced aviation services for military customers
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+   <!--- #Destination -->
+                <section class="section category" aria-label="destination">
+                    <div class="container">
+                        <p class="section-subtitle wow fadeInUp animated">Top Selling</p>
+
+                        <h2 class="h2 section-title wow fadeInUp animated">Top Destinations</h2>
+
+                        <div class="row widg-full position-relative">
+                            <div class="col-xl-4 dest_widget">
+                                <div class="destination_container wow fadeInLeft animated" >
+                                    <figure class="card-banner img-holder has-after">
+                                        <img class="img-cover" style="width: 100%;" src="assets/images/img3.png" alt="" />
+                                    </figure>
+
+                                    <div class="destination_content">
+                                        <div class="d-flex firstt justify-content-between">
+                                            <h5>Rome, Italty</h5>
+                                            <h5>$5,42k</h5>
+                                        </div>
+
+                                        <div class="d-flex days">
+                                            <img src="assets/images/navigation.svg" alt="" />
+                                            <p>10 Days Trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 dest_widget">
+                                <div class="destination_container wow fadeInLeft animated">
+                                    <figure class="card-banner img-holder has-after">
+                                        <img class="img-cover" style="width: 100%;" src="assets/images/img1.png" alt="" />
+                                    </figure>
+
+                                    <div class="destination_content">
+                                        <div class="d-flex firstt justify-content-between">
+                                            <h5>London, UK</h5>
+                                            <h5>$4.2k</h5>
+                                        </div>
+                                        <div class="d-flex days">
+                                            <img src="assets/images/navigation.svg" alt="" />
+                                            <p>12 Days Trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 dest_widget">
+                                <div class="destination_container wow fadeInLeft animated">
+                                    <figure class="card-banner img-holder has-after">
+                                        <img class="img-cover" style="width: 100%;" src="assets/images/img2.png" alt="" />
+                                    </figure>
+
+                                    <div class="destination_content">
+                                        <div class="d-flex firstt justify-content-between">
+                                            <h5>Full Europe</h5>
+                                            <h5>$15k</h5>
+                                        </div>
+                                        <div class="d-flex days">
+                                            <img src="assets/images/navigation.svg" alt="" />
+                                            <p>28 Days Trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="position-absolute shape2" src="assets/images/shape2.svg" alt="" />
+                        </div>
+                    </div>
+                </section>
+
+
+   <!--- #Steps -->
+
+
+                <section class="section" aria-label="steps">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-7 col-md-6">
+                                <div class="flight_content">
+                                    <p class="section-subtitle text-start wow fadeInLeft animated">Easy and Fast</p>
+
+                                    <h2 class="h2 section-title text-start wow fadeInLeft animated">
+                                        Book your next trip <br />
+                                        in 3 easy steps
+                                    </h2>
+
+                                    <div class="steps_div">
+                                        <div class="step_row wow fadeInLeft animated">
+                                            <div class="step_img">
+                                                <img src="assets/images/easy1.png" alt="" />
+                                            </div>
+                                            <div class="step_content">
+                                                <h4>Choose Destination</h4>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur <br />
+                                                    adipiscing elit. Urna, tortor tempus.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="step_row wow fadeInLeft animated">
+                                            <div class="step_img">
+                                                <img src="assets/images/easy2.png" alt="" />
+                                            </div>
+                                            <div class="step_content">
+                                                <h4>Make Payment</h4>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur <br />
+                                                    adipiscing elit. Urna, tortor tempus.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="step_row wow fadeInLeft animated">
+                                            <div class="step_img">
+                                                <img src="assets/images/easy3.png" alt="" />
+                                            </div>
+                                            <div class="step_content">
+                                                <h4>Reach Airport on Selected Date</h4>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur <br />
+                                                    adipiscing elit. Urna, tortor tempus.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-5 col-md-6 position-relative">
+                                <div class="image_container_full">
+                                    <div class="image_widget_details wow fadeInRight animated" >
+                                        <img style="border-radius: 24px;" src="assets/images/img4.png" alt="" />
+                                        <br />
+
+                                        <h5>Trip To Greece</h5>
+                                        <h6>14-29 June | by Robbin joseph</h6>
+
+                                        <div style="gap: 10px;" class="d-flex flex_buttons">
+                                            <img src="assets/images/w1.svg" alt="" />
+                                            <img src="assets/images/w2.svg" alt="" />
+
+                                            <img src="assets/images/w3.svg" alt="" />
+                                        </div>
+
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div style="gap: 10px;" class="d-flex">
+                                                <img src="assets/images/w4.svg" alt="" />
+                                                <h6>24 people going</h6>
+                                            </div>
+                                            <div>
+                                                <img src="assets/images/w5.svg" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="progress_widget position-absolute">
+                                    <div style="gap: 10px; padding: 20px;" class="d-flex">
+                                        <div>
+                                            <img src="assets/images/pro.png" alt="" />
+                                        </div>
+                                        <div style="flex: 1;">
+                                            <h3>Ongoing</h3>
+                                            <h2>Trip to rome</h2>
+                                            <h6>
+                                                <span style="color: #8a79df; display: inline;">40%</span>
+                                                completed
+                                            </h6>
+                                            <div style="border-radius: 20px;" class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                                <div class="progress-bar" style="width: 40%; background: #9a8be3;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <img style="        position: absolute;
+                                width: 101%;
+                                top: -29%;
+                                z-index: -1;" class="gradient" src="assets/images/gradient_.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+   <!--- #Testimonial -->
+                <section class="section" aria-label="testimonial">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-xl-6 col-md-6">
+                                <div class="flight_content">
+                                    <p class="section-subtitle text-start wow fadeInLeft animated">Testimonials</p>
+
+                                    <h2 class="h2 section-title text-start wow fadeInLeft animated">
+                                        What people say<br />
+                                        about Us.
+                                    </h2>
+
+                                    <div>
+                                        <div class="dots">
+                                            <span class="dot" onclick="currentTestimonial(0)"></span>
+                                            <span class="dot" onclick="currentTestimonial(1)"></span>
+                                            <span class="dot" onclick="currentTestimonial(2)"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-md-6">
+                                <div class="testimonial-slider wow fadeInRight  animated">
+                                    <div class="testimonial-wrapper">
+                                        <div class="testimonial">
+                                            <div class="testimonial-image">
+                                                <img src="assets/images/test.png" alt="Profile Image" />
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>
+                                                    “On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                                                </p>
+                                                <h5 class="testimonial-author">Mike taylor</h5>
+                                                <h6 class="testimonial-location">Lahore, Pakistan</h6>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial">
+                                            <div class="testimonial-image">
+                                                <img src="assets/images/test.png" alt="Profile Image" />
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>
+                                                    ““On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                                                </p>
+                                                <h5 class="testimonial-author">John Doe</h5>
+                                                <h6 class="testimonial-location">Lahore, Pakistan</h6>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial">
+                                            <div class="testimonial-image">
+                                                <img src="assets/images/test.png" alt="Profile Image" />
+                                            </div>
+                                            <div class="testimonial-content">
+                                                <p>
+                                                    ““On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”
+                                                </p>
+                                                <h5 class="testimonial-author">Chris Thomas</h5>
+                                                <h6 class="testimonial-location">Lahore, Pakistan</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="button_space">
+                                        <button class="next" onclick="nextTestimonial()">
+                                            <i class="fa-solid fa-chevron-up"></i>
+                                        </button>
+                                        <button class="prev" onclick="prevTestimonial()">
+                                            <i class="fa-solid fa-chevron-down"></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="test_data"></div>
+                            </div>
+                        </div>
+
+                        
+
+                     
+                    </div>
+                </section>
+
+   <!--- #client -->
+                <section class="section clientsection" aria-label="clients">
+                    <div class="container">
+                        <div class="d-flex client">
+                            <div class="image_ge wow fadeInUp animated">
+                                <img src="assets/images/client2.png" alt="" />
+                            </div>
+                            <div class="image_ge wow fadeInUp animated">
+                                <img src="assets/images/client3.png" alt="" />
+                            </div>
+                            <div class="image_ge wow fadeInUp animated">
+                                <img src="assets/images/client4.png" alt="" />
+                            </div>
+                            <div class="image_ge wow fadeInUp animated">
+                                <img src="assets/images/client5.png" alt="" />
+                            </div>
+
+                            <div class="image_ge wow fadeInUp animated">
+                                <img src="assets/images/client1.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+   <!--- #Subscribe -->
+                <section class="subscribecontainer position-relative">
+                    <div class="container">
+                        <div class="subscribe position-relative">
+                            <h1 class="wow fadeInUp animated">
+                                Subscribe to get information, latest news and other<br />
+                                interesting offers about Jadoo
+                            </h1>
+
+                            <div class="subscribe_input wow fadeInUp animated">
+                                <div class="position-relative">
+                                    <input type="email" placeholder="Your Email" />
+
+                                    <span><img class="position-absolute inpm" src="assets/images/mail.svg" alt="" /></span>
+                                </div>
+
+                                <button>Subscribe</button>
+                            </div>
+
+                            <img class="subimag1" src="assets/images/shape4.png" alt="" />
+                            <img class="subimag2" src="assets/images/shape3.png" alt="" />
+                            <img class="subimag3" src="assets/images/sendnew.png" alt="" />
+                        </div>
+                        <img style="width: 100px;
+                        right: 32px !important;" class="position-absolute bottom-0 end-0 starimg" src="assets/images/start2.png" alt="" />
+                    </div>
+                  
+                </section>
+
+                <!--- #FOOTER-->
+
+                <footer>
+                    <div class="container">
+                        <div class="row footer">
+                            <div class="col-lg-3 col-md-7 col-12">
+                                <img width="120px" src="assets/images/footerlogo.png" alt="" />
+                                <br />
+
+                                <p style="line-height: normal; font-size: 13px;">
+                                    Book your trip in minute, get full Control for much longer.
+                                </p>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <h4>Company</h4>
+                                <li><a href="#!">About</a></li>
+                                <li><a href="">Careers</a></li>
+                                <li><a href="">Mobile</a></li>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <h4>Contact</h4>
+                                <li><a href="">Help/FAQ</a></li>
+                                <li><a href="">Press</a></li>
+                                <li><a href="">Affilates</a></li>
+                            </div>
+
+                            <div class="col-lg-2 col-md-4">
+                                <h4>More</h4>
+                                <li><a href="">Airlinefees</a></li>
+                                <li><a href="">Airline</a></li>
+                                <li><a href="">Low fare tips</a></li>
+                            </div>
+
+                            <div class="col-lg-3 col-md-5 col-12">
+                                <div class="social">
+                                    <a href="#!" class="icon-item" id="facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+
+                                    <a href="#!" class="icon-item" id="instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+
+                                    <a href="#!" class="icon-item" id="twitter">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <h3 style="margin: 20px 0px;">Discover our app</h3>
+
+                                <div style="margin: 10px 0px;" class="d-flex column-gap-3">
+                                    <img src="assets/images/d1.png" alt="" />
+                                    <img src="assets/images/d2.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <p class="text-center">All rights reserved@jadoo.co</p>
+                    </div>
+                </footer>
+
+                <!--- #BACK TO TOP-->
+
+                <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+                    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+                </a>
+            </article>
+        </main>
+    </body>
+   <!--- custom js link-->
+   <script src="./assets/js/script.js" defer></script>
+
+   <!--- Bootstrap js link-->
+   <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+
+    <!--- Wow js link-->
+    <script src="assets/js/wow.js"></script>
+
+    <script>
+        new WOW().init();
+      </script>
+
+   <!---ionicon link-->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  
+</html>
